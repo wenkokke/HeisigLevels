@@ -1,5 +1,5 @@
 ﻿# -*- coding: utf-8 -*-
-# Copyright: Pepijn Kokke <pepijn.kokke@gmail.com>
+# Copyright: BEVYN BEVYN <bevijn@gmail.com>
 # License: GNU GPL, version 3 or later; http://www.gnu.org/copyleft/gpl.html
 # 
 # This plugin adds the possibility to generate "Heisig levels"

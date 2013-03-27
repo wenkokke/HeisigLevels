@@ -1,6 +1,6 @@
 # Heisig Levels
 
-"Heisig Levels" is a plugin for [Anki 1][ankisrs.net] that helps combine Japanese vocabulary study
+"Heisig Levels" is a plugin for [Anki 1][ankisrs] that helps combine Japanese vocabulary study
 with James Heisig's "Remembering The Kanji" method. The plugin adds the possibility to generate "Heisig levels" for the words in your decks.
 
 The *Heisig level* of a word is defined as the highest Heisig number of any kanji in the word,
@@ -19,3 +19,5 @@ file with a file that enumerates the kanji in a different order.
 
 This plugin borrows heavily from the Japanese Support reading generation code, so my thanks goes out to Damien
 Elmes for writing the plugin and obviously for writing Anki.
+
+[ankisrs]: http://ankisrs.net

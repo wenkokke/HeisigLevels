@@ -1,5 +1,5 @@
 ﻿# -*- coding: utf-8 -*-
-# Copyright: BEVYN BEVYN <bevijn@gmail.com>
+# Copyright: Pepijn Kokke <pepijn.kokke@gmail.com>
 # License: GNU GPL, version 3 or later; http://www.gnu.org/copyleft/gpl.html
 # 
 # This plugin adds the possibility to generate "Heisig levels"
@@ -38,7 +38,7 @@ from PyQt4.QtCore         import *
 from PyQt4.QtGui          import *
 
 ###############################################################################
-# CALCULATION OF HEISIG LEVELS FROM ORDERED CSV FILE
+# Calculation of Heisig Levels from ordered CSV file
 ###############################################################################
 
 def heisigNumberCsv():
@@ -83,7 +83,7 @@ srcFields = ['Expression']
 dstFields = ['Heisig Level']
 
 ###############################################################################
-# ONFOCUSLOST EDITOR GENERATION OF HEISIG LEVEL
+# Generate Heisig Levels in Editor on Unfocus of 'Expression' Field
 ###############################################################################
 
 # hook to generate heisig level on expression change
@@ -105,7 +105,7 @@ def onFocusLost(fact, field):
 addHook('fact.focusLost', onFocusLost)
 
 ###############################################################################
-# BULK GENERATION OF HEISIG LEVELS
+# Bulk Generation of Heisig Levels through Menu
 ###############################################################################
     
 def regenerateHeisigLevel(factIds):
